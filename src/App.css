@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -13,17 +16,36 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.LuffyColors {
+  background-color: #a71f00e5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size:50px;
   color: white;
+  border: 5px solid darkblue;
 }
-
+.ZoroColors {
+  background-color: hsla(138, 95%, 8%, 0.898);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size:50px;
+  color: white;
+  border: 5px solid rgba(118, 118, 118, 0.66);
+}
+.SanjiColors {
+  background-color: hsla(56, 100%, 24%, 0.898);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size:50px;
+  color: white;
+  border: 5px solid rgb(0, 0, 0);
+}
 .App-link {
   color: #61dafb;
 }

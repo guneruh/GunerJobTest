@@ -1,13 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Strawhat from './Strawhat';
 
 function App() {
-  const mexican: String= "Im mexican, hello putos"
+
   return (
     <div className="App">
-      {mexican}
-    </div>
+      <Strawhat name={"Luffy"}nationality={"Mexican"}colors={"LuffyColors"} />
+      <Strawhat name={"Zoro"}nationality={"Japanese"}colors={"ZoroColors"}/>
+      <Strawhat name={"Sanji"}nationality={"American"}colors={"SanjiColors"}/>
+        </div>
   );
 }
 
